@@ -20,7 +20,7 @@ const Diseases = () => {
         {/* Main Content */}
         <div className="lg:col-span-2">
           <div className="bg-white rounded-lg shadow p-6 mb-6">
-            <h2 className="text-2xl font-semibold mb-4">Disease Library - {farmType === 'pig' ? 'Pigs' : 'Poultry'}</h2>
+            <h2 className="text-2xl font-semibold mb-4">Disease Library </h2>
             <div className="relative">
               <Search className="absolute left-3 top-3 w-5 h-5 text-gray-400" />
               <input

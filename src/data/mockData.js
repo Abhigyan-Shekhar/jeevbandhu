@@ -75,7 +75,7 @@ export const diseases = {
   pig: [
     {
       id: 1,
-      name: "Classical Swine Fever",
+      name: "African Swine Fever",
       symptoms: ["High fever", "Loss of appetite", "Skin hemorrhages", "Diarrhea"],
       prevention: ["Regular vaccination", "Quarantine new animals", "Proper biosecurity"],
       treatment: "No specific treatment. Supportive care and antibiotics for secondary infections."
@@ -86,6 +86,15 @@ export const diseases = {
       symptoms: ["Respiratory distress", "Reproductive failure", "Blue ears", "Poor growth"],
       prevention: ["Vaccination", "All-in-all-out production", "Good ventilation"],
       treatment: "Supportive care, anti-inflammatories, antibiotics for secondary infections."
+    },
+    {
+  
+      id: 3,
+      name: "Avian Influenza (AI)",
+      symptoms: ["Sudden death", "Respiratory distress", "Swelling of head/comb", "Drop in egg production"],
+      prevention: ["Biosecurity", "Vaccination (where approved)", "Quarantine and culling"],
+      treatment: "Immediate antiviral medications, especially Oseltamivir (Tamiflu), administered within 48 hours of symptom onset"
+
     }
   ],
   poultry: [
